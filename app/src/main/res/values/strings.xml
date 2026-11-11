@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tablet Reminder</string>
+    <string name="widget_name">I ate food</string>
+    <string name="widget_desc">Start tablet reminders from your home screen</string>
+</resources>

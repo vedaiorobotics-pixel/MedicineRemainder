@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_light"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tablet after food"
+            android:textColor="#FF183243"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF4A6375"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:background="@drawable/widget_btn_yellow"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="I ate food"
+        android:textAllCaps="false"
+        android:textColor="#FF3A2B00"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_took"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:background="@drawable/widget_btn_white"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Took all"
+        android:textAllCaps="false"
+        android:textColor="#FF183243"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</LinearLayout>
